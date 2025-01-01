@@ -6,8 +6,8 @@
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "Hereweplayagain.aternos.me",
+    "port": 59607,
     "version": "1.19.3"
   },
 
@@ -25,9 +25,9 @@
     },
 
     "anti-afk": {
-      "enabled": false,
+      "enabled": true,
       "sneak": false,
-      "jump": false,
+      "jump": true,
       "rotate": false,
 
       "hit": {
@@ -37,14 +37,14 @@
       },
 
       "circle-walk": {
-        "enabled": false,
+        "enabled": true,
         "radius": 2
       }
     },
 
     "chat-messages": {
       "enabled": false,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 60,
 
       "messages": [
@@ -60,3 +60,4 @@
     "auto-reconnect-delay": 5000
   }
 }
+
